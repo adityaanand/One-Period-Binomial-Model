@@ -15,7 +15,7 @@ S1(ω) =
       {Su = S0u if ω = $\omega_u$
 
 
-      {Sd = S0d if ω = $\omega_d$
+      {Sd = S0d if ω = $\omega_c$
 
 
 where u > 1 and 0 < d < 1 are deterministic multipliers.
