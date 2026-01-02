@@ -12,7 +12,7 @@ Let (Ω,F,P) be a probability space with two states: $\omega_u$ (up) and $\omega
 S1(ω) =
 
 
-      {Su = S0u if ω = $\omega_u$
+      {Su = S0u if ω = $\alpha$
 
 
       {Sd = S0d if ω = $\omega_c$
