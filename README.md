@@ -6,7 +6,7 @@ Master the fundamental principle of replication in complete markets. Understand 
 **Key Skills:** Replication, arbitrage detection, state pricing, delta hedging, market completeness.
 
 **Comprehensive Mathematical Development**
-Let (Ω,F,P) be a probability space with two states: &omega_u (up) and &omega_d (down). The underlying asset price evolves as:
+Let (Ω,F,P) be a probability space with two states: $omega_u$ (up) and &omega_d (down). The underlying asset price evolves as:
 S1(ω) =
 (
 Su = S0u if ω = ωu
