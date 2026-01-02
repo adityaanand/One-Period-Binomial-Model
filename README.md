@@ -16,7 +16,9 @@ where u > 1 and 0 < d < 1 are deterministic multipliers.
 A riskless bond evolves as B0 = 1, B1 = 1 + r with r > −1.
 
 
-**Theorem 1 (No-Arbitrage Condition)**: The market is arbitrage-free if and only if:0 < d < 1 + r < u
+**Theorem 1 (No-Arbitrage Condition)**: The market is arbitrage-free if and only if:
+
+                                        0 < d < 1 + r < u
 
 
 **Proof**. If 1 + r ≤ d, the bond is dominated by the stock in all states, creating arbitrage by shorting the bond and buying the stock. Conversely, if u ≤ 1+r, the stock is dominated. When d < 1 + r < u, the law of one price holds and replication is possible.
