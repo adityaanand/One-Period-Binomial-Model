@@ -44,11 +44,9 @@ C0 = (1/1 + r)*EQ[C1] = qCu + (1 − q)Cd/1 + r
 **Replication Strategy:** Construct portfolio (Δ, B) where:
 
 
-Δ =Cu − Cd/S0(u − d)  **(shares)
-**
+Δ =Cu − Cd/S0(u − d)  **(shares)**
 
-B = uCd − dCu/(u − d)(1 + r)  **(bond position)
-**
+B = uCd − dCu/(u − d)(1 + r)  **(bond position)**
 
 The portfolio value V1 = ΔS1 + B(1 + r) replicates the claim in both states.
 
