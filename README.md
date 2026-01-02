@@ -38,4 +38,13 @@ q =((1 + r) − d)/(u − d),
 
 
 **Option Pricing:** For a contingent claim with payoffs Cu, Cd, the arbitrage-free price is:
-C0 =1/1 + rEQ[C1] = qCu + (1 − q)Cd/1 + r
+C0 = (1/1 + r)*EQ[C1] = qCu + (1 − q)Cd/1 + r
+
+
+**Replication Strategy:** Construct portfolio (Δ, B) where:
+
+
+Δ =Cu − Cd/S0(u − d)  (shares)
+
+
+B = uCd − dCu/(u − d)(1 + r)  (bond position)
