@@ -10,10 +10,12 @@ Let (Ω,F,P) be a probability space with two states: $\omega_u$ (up) and $\omega
 
 
 S1(ω) =
-Su = S0u if ω = ωu
 
 
-Sd = S0d if ω = ωd
+{Su = S0u if ω = $\omega_u$
+
+
+{Sd = S0d if ω = $\omega_d$
 
 
 where u > 1 and 0 < d < 1 are deterministic multipliers.
