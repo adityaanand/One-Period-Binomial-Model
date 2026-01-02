@@ -11,8 +11,14 @@ Let (Ω,F,P) be a probability space with two states: $\omega_u$ (up) and $\omega
 
 S1(ω) =
 Su = S0u if ω = ωu
+
+
 Sd = S0d if ω = ωd
+
+
 where u > 1 and 0 < d < 1 are deterministic multipliers.
+
+
 A riskless bond evolves as B0 = 1, B1 = 1 + r with r > −1.
 
 
