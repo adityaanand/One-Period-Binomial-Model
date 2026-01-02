@@ -55,12 +55,7 @@ The portfolio value V1 = ΔS1 + B(1 + r) replicates the claim in both states.
 
 **Greeks in Binomial Model:**
 
+Δ = ∂C0/∂S0 = (Cu − Cd)/(S0(u − d))
 
-Δ =
-∂C0
-∂S0
-=
-Cu − Cd
-S0(u − d)
-Γ ≈ Δu − Δd
-S0(u − d)/2
+
+Γ ≈ (Δu − Δd)/(S0(u − d)/2)
