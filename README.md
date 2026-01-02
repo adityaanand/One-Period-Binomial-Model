@@ -37,22 +37,24 @@ q =((1 + r) − d)/(u − d),
 
 
 **Option Pricing:** For a contingent claim with payoffs Cu, Cd, the arbitrage-free price is:
-C0 = (1/1 + r)*EQ[C1] = qCu + (1 − q)Cd/1 + r
+
+
+                                          C0 = (1/1 + r)*EQ[C1] = qCu + (1 − q)Cd/1 + r
 
 
 **Replication Strategy:** Construct portfolio (Δ, B) where:
 
 
-Δ =Cu − Cd/S0(u − d)  **(shares)**
+                                                      Δ =Cu − Cd/S0(u − d)  (shares)
 
-B = uCd − dCu/(u − d)(1 + r)  **(bond position)**
+                                                      B = uCd − dCu/(u − d)(1 + r)  (bond position)
 
 The portfolio value V1 = ΔS1 + B(1 + r) replicates the claim in both states.
 
 
 **Greeks in Binomial Model:**
 
-Δ = ∂C0/∂S0 = (Cu − Cd)/(S0(u − d))
+                        Δ = ∂C0/∂S0 = (Cu − Cd)/(S0(u − d))
 
 
-Γ ≈ (Δu − Δd)/(S0(u − d)/2)
+                        Γ ≈ (Δu − Δd)/(S0(u − d)/2)
